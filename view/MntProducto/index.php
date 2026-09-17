@@ -702,17 +702,17 @@
               <thead>
                 <tr>
                   <th class="wd-15p">Nombre Producto</th>
-                  <th class="wd-15p">Acción</th>
-                  <th class="wd-20p">Acción</th>
+                  <th class="wd-15p">Editar</th>
+                  <th class="wd-20p">Eliminar</th>
                 </tr>
               </thead>
 
               <tbody>
-                <tr>
+                <!-- <tr>
                   <td>Gaseosa Coca Cola 2L</td>
                   <td><button type="button" class="btn btn-outline-primary btn-icon"><div class= "fa fa-edit"></div></button></td>
                   <td><button type="button" class="btn btn-outline-danger btn-icon"><div class= "fa fa-trash"></div></button></td>
-                </tr>
+                </tr> -->
               </tbody>
 
             </table>
