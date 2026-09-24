@@ -35,6 +35,7 @@
     <link href="../../public/lib/Ionicons/css/ionicons.css" rel="stylesheet">
     <link href="../../public/lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
     <link href="../../public/lib/jquery-switchbutton/jquery.switchButton.css" rel="stylesheet">
+    <link href="../../public/lib/datatables/jquery.dataTables.css" rel="stylesheet">
 
     <!-- Bracket CSS -->
     <link rel="stylesheet" href="../../public/css/bracket.css">
@@ -686,7 +687,7 @@
       </div><!-- br-pageheader -->
       <div class="pd-x-20 pd-sm-x-30 pd-t-20 pd-sm-t-30">
         <h4 class="tx-gray-800 mg-b-5">Página de Productos</h4>
-        <p class="mg-b-0">Aqui voy a configurar mi página de productos.</p>
+        <p class="mg-b-0">Aqui voy a configurar los productos.</p>
       </div>
 
       <div class="br-pagebody">
@@ -697,7 +698,7 @@
 
           <div class="table-wrapper">
 
-            <table id="datatable1" class="table display responsive nowrap">
+            <table id="producto_data" class="table display responsive nowrap">
 
               <thead>
                 <tr>
@@ -708,11 +709,11 @@
               </thead>
 
               <tbody>
-                <!-- <tr>
+                <tr>
                   <td>Gaseosa Coca Cola 2L</td>
                   <td><button type="button" class="btn btn-outline-primary btn-icon"><div class= "fa fa-edit"></div></button></td>
                   <td><button type="button" class="btn btn-outline-danger btn-icon"><div class= "fa fa-trash"></div></button></td>
-                </tr> -->
+                </tr> 
               </tbody>
 
             </table>
@@ -734,7 +735,36 @@
     <script src="../../public/lib/jquery-ui/jquery-ui.js"></script>
     <script src="../../public/lib/jquery-switchbutton/jquery.switchButton.js"></script>
     <script src="../../public/lib/peity/jquery.peity.js"></script>
+    <script src="../../public/lib/datatables/jquery.dataTables.js"></script>
+    <script src="../../public/lib/datatables-responsive/dataTables.responsive.js"></script>
 
     <script src="../../public/js/bracket.js"></script>
+      <script src="mntproducto.js"></script>
+
+      <!-- <script>
+      $(function(){
+        'use strict';
+
+        $('#producto_data').DataTable({
+          responsive: true,
+          language: {
+            searchPlaceholder: 'Search...',
+            sSearch: '',
+            lengthMenu: '_MENU_ items/page',
+          }
+        });
+
+        $('#datatable2').DataTable({
+          bLengthChange: false,
+          searching: false,
+          responsive: true
+        });
+
+        // Select2
+        $('.dataTables_length select').select2({ minimumResultsForSearch: Infinity });
+
+      });
+    </script> -->
+
   </body>
 </html>
