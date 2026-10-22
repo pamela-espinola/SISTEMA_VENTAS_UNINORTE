@@ -741,7 +741,9 @@
     <script src="../../public/lib/datatables/jquery.dataTables.js"></script>
     <script src="../../public/lib/datatables-responsive/dataTables.responsive.js"></script>
 
+   
     <script src="../../public/js/bracket.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
     <script src="mntproducto.js"></script>
 
 
